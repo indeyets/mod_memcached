@@ -1,9 +1,13 @@
+// Lighttpd includes
 #include "base.h"
 #include "plugin.h"
 
 #ifdef HAVE_CONFIG_H
 # include "config.h"
 #endif
+
+// libmemcached
+#include <memcached.h>
 
 typedef struct {
 	PLUGIN_DATA;
